@@ -1,3 +1,6 @@
 <Solution>
-  <Project Path="TechStackWebApp/TechStackWebApp.csproj" />
+  <Project Path="TechStackWebApp/TechStackWebApp.csproj">
+    <BuildType Solution="Debug|*" Project="Release" />
+    <BuildType Solution="Release|*" Project="Debug" />
+  </Project>
 </Solution>
